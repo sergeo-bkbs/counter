@@ -4,12 +4,12 @@ name:"count",
 initialState:{
     count:0
 },
-reducer:{
+reducers:{
     increment:(state)=>{
-       return  state.count+=1
+       state.count+=1
     },
     decrement:(state)=>{
-        return state.count-=1
+        state.count-=1
     }
 },
 })
